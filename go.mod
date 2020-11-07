@@ -15,6 +15,7 @@ require (
 	github.com/justinas/alice v1.2.0
 	github.com/mbland/hmacauth v0.0.0-20170912233209-44256dfd4bfa
 	github.com/mitchellh/mapstructure v1.1.2
+	github.com/oauth2-proxy/tools/reference-gen v0.0.0-20201128203523-ad37c01e2096
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.2
 	github.com/pierrec/lz4 v2.5.2+incompatible
@@ -32,3 +33,5 @@ require (
 	gopkg.in/square/go-jose.v2 v2.4.1
 	k8s.io/apimachinery v0.19.3
 )
+
+replace github.com/oauth2-proxy/tools/reference-gen => github.com/oauth2-proxy/tools/reference-gen v0.0.0-20201129112127-38b1e16b3e13
